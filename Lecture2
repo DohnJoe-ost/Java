@@ -1,0 +1,62 @@
+class Main {
+    public static void main(String args[]) {
+
+        System.out.println("Hello, world! \n");
+
+        boolean t = true;   // boolean values
+        boolean f = false;
+
+        System.out.println(t == f);
+        System.out.println(t != f);
+        System.out.println(t && f);
+        System.out.println(t || f);
+
+
+        int x = 0;   // 
+        x += 1;
+        System.out.println(x);
+        ++x;
+        System.out.println(x);
+        x++;
+        System.out.println(x);
+        x = x + 1;
+        System.out.println(x);
+
+        x *= 10;
+        System.out.println(x);
+        double d = (double)x / 10d;
+        System.out.println(d);
+
+
+        String str = "David";
+        System.out.println(str);
+        String r = "Hello " + str;
+        System.out.println(r);
+
+        str = str.toUpperCase(); // immutable
+
+        int y = 6;
+        if (y > 5){
+            System.out.println("y is > 5, y = " + y);
+
+        }
+
+        /*switch (y){
+
+            case 5;
+
+        }*/
+        //boolean w = true;
+        int w = 1;
+
+        while (w < 6){
+            System.out.println(w);
+            w++;
+        }
+
+        for (int j = 0; j < 2; j++){
+            System.out.println("hi" + j);
+        }
+
+    }
+}
